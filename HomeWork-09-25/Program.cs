@@ -126,63 +126,43 @@ namespace HomeWork_09_25
             #endregion
 
             #region Task-5
-            //while (true)
-            //{
-            //    try
-            //    {
-            //        Console.Write("Reqem daxil edin: ");
-            //        int number = Convert.ToInt32(Console.ReadLine());
-            //        int i = 2;
-            //        string[] dvide_numbers = new string[dvide_numbers.Length + 1];
-            //        while (i <= number)
-            //        {
-            //            if (number % i != 0)
-            //            {
-            //                i++;
-            //            }
-            //            else
-            //            {
-            //                dvide_numbers.Add(i);
-            //                i++;
-            //            }
-            //        }
-            //        break;
-            //    }
-            //    catch (Exception)
-            //    {
-            //        Console.WriteLine("eded daxil edin");
-            //    }
-            //}
-
-
-
-
-            //while (true)
-            //{
-            //    try
-            //    {
-            //        int i = 2;
-            //        Console.Write("Reqem daxil edin: ");
-            //        int number = Convert.ToInt32(Console.ReadLine());
-            //        while (i < number)
-            //        {
-            //            if (number % 2 != 0)
-            //            {
-            //                Console.WriteLine(true);
-            //            }
-            //            else
-            //            {
-            //                Console.WriteLine(false);
-            //            }
-            //            i++;
-            //        }
-            //        break;
-            //    }
-            //    catch (Exception)
-            //    {
-            //        Console.WriteLine("eded daxil edin");
-            //    }
-            //}
+            while (true)
+            {
+                try
+                {
+                    Console.Write("Reqem daxil edin: ");
+                    int number = Convert.ToInt32(Console.ReadLine());
+                    int i = 2;
+                    int[] dvide_numbers;
+                    int index = 0;
+                    while (i <= number)
+                    {
+                        if (number % i != 0)
+                        {
+                            i++;
+                        }
+                        else
+                        {
+                            dvide_numbers = new int[index];
+                            i++;
+                            index++;
+                        }
+                    }
+                    if (index>= 2)
+                    {
+                        Console.WriteLine(false);
+                    }
+                    else
+                    {
+                        Console.WriteLine(true);
+                    }
+                    break;
+                }
+                catch (Exception)
+                {
+                    Console.WriteLine("eded daxil edin");
+                }
+            }
             #endregion
 
             #region Task-6
