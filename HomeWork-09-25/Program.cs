@@ -126,33 +126,33 @@ namespace HomeWork_09_25
             #endregion
 
             #region Task-5
-            while (true)
-            {
-                try
-                {
-                    Console.Write("Reqem daxil edin: ");
-                    int number = Convert.ToInt32(Console.ReadLine());
-                    int i = 2;
-                    string[] dvide_numbers = new string[dvide_numbers.Length + 1];
-                    while (i <= number)
-                    {
-                        if (number % i != 0)
-                        {
-                            i++;
-                        }
-                        else
-                        {
-                            dvide_numbers.Add(i);
-                            i++;
-                        }
-                    }
-                    break;
-                }
-                catch (Exception)
-                {
-                    Console.WriteLine("eded daxil edin");
-                }
-            }
+            //while (true)
+            //{
+            //    try
+            //    {
+            //        Console.Write("Reqem daxil edin: ");
+            //        int number = Convert.ToInt32(Console.ReadLine());
+            //        int i = 2;
+            //        string[] dvide_numbers = new string[dvide_numbers.Length + 1];
+            //        while (i <= number)
+            //        {
+            //            if (number % i != 0)
+            //            {
+            //                i++;
+            //            }
+            //            else
+            //            {
+            //                dvide_numbers.Add(i);
+            //                i++;
+            //            }
+            //        }
+            //        break;
+            //    }
+            //    catch (Exception)
+            //    {
+            //        Console.WriteLine("eded daxil edin");
+            //    }
+            //}
 
 
 
@@ -267,6 +267,18 @@ namespace HomeWork_09_25
             #endregion
 
             #region Task-10
+            //int yield = 0;
+            //int[] number_1 = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+            //int[] number_2 = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+            //foreach (int i in number_1)
+            //{
+            //    foreach (int j in number_2)
+            //    {
+            //        yield = i * j;
+            //        Console.Write(yield + "=" + i + "*" + j + "     ");
+            //    }
+            //    Console.WriteLine();
+            //}
             #endregion
         }
     }
