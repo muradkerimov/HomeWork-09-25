@@ -50,6 +50,129 @@ namespace HomeWork_09_25
             //}
             #endregion
 
+            #region Task-2
+            //while (true)
+            //{
+            //    try
+            //    {
+            //        Console.Write("Reqem daxil edin: ");
+            //        int number = Convert.ToInt32(Console.ReadLine());
+            //        int i = 1;
+            //        while (i <= number)
+            //        {
+            //            if (number % i != 0)
+            //            {
+            //                i++;
+            //            }
+            //            else
+            //            {
+            //                Console.WriteLine(i);
+            //                i++;
+            //            }
+            //        }
+            //        break;
+            //    }
+            //    catch (Exception)
+            //    {
+            //        Console.WriteLine("eded daxil edin");
+            //    }
+            //}
+            #endregion
+
+            #region Task-3
+            //while (true)
+            //{
+            //    try
+            //    {
+            //        int result = 0;
+            //        Console.Write("Reqem daxil edin: ");
+            //        int number = Convert.ToInt32(Console.ReadLine());
+            //        while (number>=1)
+            //        {
+            //            number /= 10;
+            //            result++;
+            //        }
+            //        Console.WriteLine(result);
+            //        break;
+            //    }
+            //    catch (Exception)
+            //    {
+            //        Console.WriteLine("eded daxil edin");
+            //    }
+            //}
+            #endregion
+
+            #region Task-4
+            //while (true)
+            //{
+            //    try
+            //    {
+            //        int result = 0;
+            //        Console.Write("Reqem daxil edin: ");
+            //        int number = Convert.ToInt32(Console.ReadLine());
+            //        while (number >= 1)
+            //        {
+            //            result += number % 10;
+            //            number = (number-(number%10))/10;
+            //        }
+            //        Console.WriteLine(result);
+            //        break;
+            //    }
+            //    catch (Exception)
+            //    {
+            //        Console.WriteLine("eded daxil edin");
+            //    }
+            //}
+            #endregion
+
+            #region Task-5
+            #endregion
+
+            #region Task-6
+            //while (true)
+            //{
+            //    try
+            //    {
+            //        int result = 1;
+            //        Console.Write("Reqem daxil edin: ");
+            //        int number = Convert.ToInt32(Console.ReadLine());
+            //        while (number >= 1)
+            //        {
+            //            result *= number ;
+            //            number--;
+            //        }
+            //        Console.WriteLine(result);
+            //        break;
+            //    }
+            //    catch (Exception)
+            //    {
+            //        Console.WriteLine("eded daxil edin");
+            //    }
+            //}
+            #endregion
+
+            #region Task-7
+            //int[] arr = { 10, 15, 20, 35, 45, 20, 15 };
+            //int resultMin = arr[0];
+            //int resultMax = arr[0];
+            //foreach (int item in arr)
+            //{
+            //    if (resultMin > item)
+            //    {
+            //        resultMin = item;
+            //    }
+            //}
+            //foreach (int item in arr)
+            //{
+            //    if (resultMax < item)
+            //    {
+            //        resultMax = item;
+            //    }
+            //}
+
+            //Console.WriteLine(resultMax + resultMin);
+            #endregion
+
             #region Task-8
             //Console.Write("reqem daxil edin: ");
             //int number = Convert.ToInt32(Console.ReadLine());
@@ -67,11 +190,26 @@ namespace HomeWork_09_25
             //    case 4:
             //        Console.WriteLine("autom");
             //        break;
-
             //    default:
             //        Console.WriteLine("1 ile 4 arasinda reqem daxil edin");
             //        break;
             //}
+            #endregion
+
+            #region Task-9
+            //string[] arr = { "Murad", "Zulfuqar", "Elgun", "Kamran", "Nicat" };
+            //string result = arr[0];
+            //foreach (string item in arr)
+            //{
+            //    if (result.Length < item.Length)
+            //    {
+            //        result = item;
+            //    }
+            //}
+            //Console.WriteLine(result);
+            #endregion
+
+            #region Task-10
             #endregion
         }
     }
