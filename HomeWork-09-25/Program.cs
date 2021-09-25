@@ -6,6 +6,8 @@ namespace HomeWork_09_25
     {
         static void Main(string[] args)
         {
+            #region Tasks
+
             #region Task-1
             //while (true)
             //{
@@ -268,6 +270,10 @@ namespace HomeWork_09_25
             //    }
             //    Console.WriteLine();
             //}
+            #endregion
+
+
+
             #endregion
         }
     }
