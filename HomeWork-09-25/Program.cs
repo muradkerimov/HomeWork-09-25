@@ -50,6 +50,7 @@ namespace HomeWork_09_25
             //}
             #endregion
 
+
             #region Task-2
             //while (true)
             //{
@@ -79,6 +80,7 @@ namespace HomeWork_09_25
             //}
             #endregion
 
+
             #region Task-3
             //while (true)
             //{
@@ -102,6 +104,7 @@ namespace HomeWork_09_25
             //}
             #endregion
 
+
             #region Task-4
             //while (true)
             //{
@@ -124,6 +127,7 @@ namespace HomeWork_09_25
             //    }
             //}
             #endregion
+
 
             #region Task-5
             //while (true)
@@ -165,6 +169,7 @@ namespace HomeWork_09_25
             //}
             #endregion
 
+
             #region Task-6
             //while (true)
             //{
@@ -188,6 +193,7 @@ namespace HomeWork_09_25
             //}
             #endregion
 
+
             #region Task-7
             //int[] arr = { 10, 15, 20, 35, 45, 20, 15 };
             //int resultMin = arr[0];
@@ -209,6 +215,7 @@ namespace HomeWork_09_25
 
             //Console.WriteLine(resultMax + resultMin);
             #endregion
+
 
             #region Task-8
             //Console.Write("reqem daxil edin: ");
@@ -233,6 +240,7 @@ namespace HomeWork_09_25
             //}
             #endregion
 
+
             #region Task-9
             //string[] arr = { "Murad", "Zulfuqar", "Elgun", "Kamran", "Nicat" };
             //string result = arr[0];
@@ -245,6 +253,7 @@ namespace HomeWork_09_25
             //}
             //Console.WriteLine(result);
             #endregion
+
 
             #region Task-10
             //int yield = 0;
