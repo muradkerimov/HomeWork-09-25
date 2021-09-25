@@ -90,7 +90,7 @@ namespace HomeWork_09_25
             //        while (number>=1)
             //        {
             //            number /= 10;
-            //            result++;
+            //            result++; 
             //        }
             //        Console.WriteLine(result);
             //        break;
